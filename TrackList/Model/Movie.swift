@@ -13,6 +13,7 @@ struct Movie {
     let poster: String
     let genre: String
     let duration: String
+    let trailer: String
     
     static func createMovie() -> [Movie] {
         var arrayOfMovies: [Movie] = []
@@ -22,9 +23,10 @@ struct Movie {
         let posters = DataManager.shared.poster
         let genres = DataManager.shared.genre
         let durations = DataManager.shared.duration
+        let trailers = DataManager.shared.trailer
         
         for index in 0..<titles.count {
-            let movie = Movie(title: titles[index], year: years[index], poster: posters[index], genre: genres[index], duration: durations[index])
+            let movie = Movie(title: titles[index], year: years[index], poster: posters[index], genre: genres[index], duration: durations[index], trailer: trailers[index])
             arrayOfMovies.append(movie)
         }
         

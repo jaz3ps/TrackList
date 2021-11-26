@@ -120,4 +120,17 @@ class DataManager {
         "2 Hours 16 Minutes",
         "2 Hours 10 Minutes",
     ]
+    
+    var trailer = [
+        "https://www.youtube.com/watch?v=oR_e9y-bka0",
+        "https://www.youtube.com/watch?v=h2tY82z3xXU",
+        "https://www.youtube.com/watch?v=YoHD9XEInc0",
+        "https://www.youtube.com/watch?v=zSWdZVtXT7E",
+        "https://www.youtube.com/watch?v=-FcK_UiVV40",
+        "https://www.youtube.com/watch?v=vayksn4Y93A",
+        "https://www.youtube.com/watch?v=5iaYLCiq5RM",
+        "https://www.youtube.com/watch?v=AZGcmvrTX9M",
+        "https://www.youtube.com/watch?v=vKQi3bBA1y8",
+        "https://www.youtube.com/watch?v=RLtaA9fFNXU",
+    ]
 }
